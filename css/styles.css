@@ -1,2 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Lato&display=swap);
 body {
-  background-color: black; }
+  font-family: "Lato", sans-serif; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.dropdown {
+  position: initial; }
+
+.dropdown-menu {
+  width: 100%;
+  background-color: #262a32;
+  height: 448px; }
+
+.row {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%); }
+  .row ul {
+    padding: 100px;
+    text-align: center; }

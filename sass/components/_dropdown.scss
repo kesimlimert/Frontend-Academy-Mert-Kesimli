@@ -1,0 +1,21 @@
+@import '../utilities/variables';
+@import '../utilities/mixins';
+
+.dropdown{
+    position:initial;
+}
+
+.dropdown-menu{
+    width: 100%;
+    background-color: $osf-black;
+    height: 448px;
+}
+
+.row{
+    @include verticalCenterer;
+    ul {
+ padding: 100px;
+ text-align: center;
+}
+}
+
