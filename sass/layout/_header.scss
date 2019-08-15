@@ -1,1 +1,13 @@
+@import '../utilities/variables';
+
+.navbar{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+header{
+    border-bottom: 2px solid;
+    border-color: $osf-grey;
+}
 

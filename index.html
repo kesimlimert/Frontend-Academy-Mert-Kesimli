@@ -1,100 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    
+
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
-</head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Osf-Global</title>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-            <a class="navbar-brand" href="#"><img src="images/3-layers.png" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown open">
-                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" data-target="dropdown_target" role="button"
-                        aria-haspopup="true" aria-expanded="false">
-                        Services
-                        <span class="caret"></span>
-                    </a>
-                <ul class="dropdown-menu">
-                    <li>
-                        <div class="row">
-                            <ul class="list-unstyled col-md-2">
-                                <li><h3>baslik</h3></li>
-                                <li><a href="#">test1-1</a></li>
-                                <li><a href="#">test1-2</a></li>
-                                <li><a href="#">test1-3</a></li>
-                            </ul>
-                            <ul class="list-unstyled col-md-2 ">
-                                <li><a href="#">test2-1</a></li>
-                                <li><a href="#">test2-2</a></li>
-                                <li><a href="#">test2-3</a></li>
-                            </ul>
-                            <ul class="list-unstyled col-md-2 ">
-                                <li><a href="#">test3-1</a></li>
-                                <li><a href="#">test3-2</a></li>
-                                <li><a href="#">test3-3</a></li>
-                            </ul>
-                            <ul class="list-unstyled col-md-2">
-                                <li><a href="#">test3-1</a></li>
-                                <li><a href="#">test3-2</a></li>
-                                <li><a href="#">test3-3</a></li>
-                            </ul>
-                            <ul class="list-unstyled col-md-2">
-                                <img src="images/Layer_162.png" alt="img">
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-                </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Company</a>
-                    </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Library</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
-                </ul>
-                <ul class="navbar-nav ml-4">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link disabled dropdown-toggle" href="#" tabindex="-1" aria-disabled="true">EN</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link disabled dropdown-toggle" href="#" tabindex="-1" aria-disabled="true">$US</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-5 pr-5">
-                    <a class="nav-link pr-3" href="#"><img src="images/Search_Information._Attribute_as_Designmodo_from_Flaticon.com.png" alt="search"></a>
-                    <a class="nav-link pr-3" href="#"><img src="images/Profile_User_Outline._Attribute_as_Situ_Herrera_from_Flaticon.com.png" alt="user"></a>
-                    <a class="nav-link pr-3" href="#"><img src="images/Heart_Outline_Rounded_Shape._Attribute_as_Freepik_from_Flaticon.com.png" alt="fav"></a>
-                    <a class="nav-link pr-3" href="#"><img src="images/Bag_For_Shopping._Attribute_as_SimpleIcon_from_Flaticon.com.png" alt="bag"></a>
-                </ul>
-            </div>
-        </nav>
-    </header>
-</body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <a class="navbar-brand pl-5" href="#"
+          ><img src="images/3-layers.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-5">
+            <li class="nav-item dropdown open">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-toggle="dropdown"
+                data-target="dropdown_target"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Services
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <div class="row">
+                    <ul class="list-unstyled col-md-2">
+                      <li><h3>baslik</h3></li>
+                      <li><a href="#">test1-1</a></li>
+                      <li><a href="#">test1-2</a></li>
+                      <li><a href="#">test1-3</a></li>
+                      <li><a href="#">test1-1</a></li>
+                      <li><a href="#">test1-1</a></li>
+                      <li><a href="#">test1-1</a></li>
+                      <li><a href="#">test1-1</a></li>
+                      <li><a href="#">test1-1</a></li>
+                    </ul>
+                    <ul class="list-unstyled col-md-2 ">
+                      <li><a href="#">test2-1</a></li>
+                      <li><a href="#">test2-2</a></li>
+                      <li><a href="#">test2-3</a></li>
+                      <li><a href="#">test1-1</a></li>
+                      <li><a href="#">test1-1</a></li>
+                      <li><a href="#">test1-1</a></li>
+                      <li><a href="#">test1-1</a></li>
+                      <li><a href="#">test1-1</a></li>
+                    </ul>
+                    <ul class="list-unstyled col-md-2 ">
+                      <li><a href="#">test3-1</a></li>
+                      <li><a href="#">test3-2</a></li>
+                      <li><a href="#">test3-3</a></li>
+                      <li><a href="#">test1-1</a></li>
+                      <li><a href="#">test1-1</a></li>
+                      <li><a href="#">test1-1</a></li>
+                      <li><a href="#">test1-1</a></li>
+                      <li><a href="#">test1-1</a></li>
+                    </ul>
+                    <ul class="list-unstyled col-md-2">
+                      <li><a href="#">test3-1</a></li>
+                      <li><a href="#">test3-2</a></li>
+                      <li><a href="#">test3-3</a></li>
+                      <li><a href="#">test1-1</a></li>
+                      <li><a href="#">test1-1</a></li>
+                      <li><a href="#">test1-1</a></li>
+                      <li><a href="#">test1-1</a></li>
+                      <li><a href="#">test1-1</a></li>
+                    </ul>
+                    <ul class="list-unstyled col-md-2">
+                      <img src="images/Layer_162.png" alt="img" />
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Company</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Library</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link disabled dropdown-toggle"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >EN</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link disabled dropdown-toggle"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >$US</a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-5">
+            <a class="nav-link pr-3" href="#"
+              ><img
+                src="images/Search_Information._Attribute_as_Designmodo_from_Flaticon.com.png"
+                alt="search"
+            /></a>
+            <a class="nav-link pr-3" href="#"
+              ><img
+                src="images/Profile_User_Outline._Attribute_as_Situ_Herrera_from_Flaticon.com.png"
+                alt="user"
+            /></a>
+            <a class="nav-link pr-3" href="#"
+              ><img
+                src="images/Heart_Outline_Rounded_Shape._Attribute_as_Freepik_from_Flaticon.com.png"
+                alt="fav"
+            /></a>
+            <a class="nav-link pr-3" href="#"
+              ><img
+                src="images/Bag_For_Shopping._Attribute_as_SimpleIcon_from_Flaticon.com.png"
+                alt="bag"
+            /></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--Carousel and images-->
+    <div class="row ml-5 mt-5">
+    <div class="wrapper col-sm-8">
+        <div class="carousel">
+          <div class="inner">
+            <div class="slide active">
+                <h1>1</h1>
+            </div>
+            <div class="slide">
+              <h1>2</h1>
+            </div>
+            <div class="slide">
+                <h1>3</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4"><ul>
+          <li><p>image</p></li>
+          <li><p>lorem ipsum</p></li>
+          <li><button>facebook</button></li>
+      </ul></div>
+
+    </div>  
+    <!--Script Tags-->
+    <script src="js/carousel.js"></script>
+  </body>
 </html>

@@ -11,11 +11,11 @@
     height: 448px;
 }
 
-.row{
-    @include verticalCenterer;
-    ul {
- padding: 100px;
- text-align: center;
-}
+.row {
+    align-items: center;
+    margin-left: 225px;
+    img {
+        margin-top: 57px;
+    }
 }
 
