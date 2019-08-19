@@ -11,6 +11,10 @@
   transform: translate(-50%, -50%);
 }
 
+@mixin f-left {
+  float: left;
+}
+
 // --------Media Query Mixins------ ////
 
 @mixin breakpoint($class) {

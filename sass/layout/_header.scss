@@ -1,13 +1,26 @@
 @import '../utilities/variables';
 
 .navbar{
-    font-size: 14px;
-    font-weight: 400;
-    text-transform: uppercase;
+    &-nav{
+        margin-left: 301px;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        &>li{
+            padding-left:10px;
+            padding-right:10px;
+        }
+    }
+    &-brand {
+        margin-left: 82px;
+    }
 }
-
+    
 header{
     border-bottom: 2px solid;
     border-color: $osf-grey;
 }
+
+
+
 

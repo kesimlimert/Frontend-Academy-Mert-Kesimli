@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/22bdcff079.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -27,8 +28,8 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-        <a class="navbar-brand pl-5" href="#"
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#"
           ><img src="images/3-layers.png" alt="logo"
         /></a>
         <button
@@ -44,7 +45,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-5">
+          <ul class="navbar-nav font-weight-bold">
             <li class="nav-item dropdown open">
               <a
                 class="nav-link dropdown-toggle"
@@ -119,7 +120,7 @@
               <a class="nav-link" href="#">Contact Us</a>
             </li>
           </ul>
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-5">
             <li class="nav-item dropdown">
               <a
                 class="nav-link disabled dropdown-toggle"
@@ -139,7 +140,7 @@
               >
             </li>
           </ul>
-          <ul class="navbar-nav ml-5">
+          <ul class="navbar-nav ml-auto mr-5">
             <a class="nav-link pr-3" href="#"
               ><img
                 src="images/Search_Information._Attribute_as_Designmodo_from_Flaticon.com.png"
@@ -165,29 +166,48 @@
       </nav>
     </header>
     <!--Carousel and images-->
-    <div class="row ml-5 mt-5">
-    <div class="wrapper col-sm-8">
+    <div class="row justify-content-md-center"  style="margin-left: 82px;">
+      <div class="wrapper col mt-4">
         <div class="carousel">
           <div class="inner">
             <div class="slide active">
-                <h1>1</h1>
+              <h1>1</h1>
             </div>
             <div class="slide">
               <h1>2</h1>
             </div>
             <div class="slide">
-                <h1>3</h1>
+              <h1>3</h1>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-4"><ul>
-          <li><p>image</p></li>
-          <li><p>lorem ipsum</p></li>
-          <li><button>facebook</button></li>
-      </ul></div>
-
-    </div>  
+      <div class="col col-lg-4 mt-3" id="summerSale">
+          <img src="images/4-layers.png"  class="img-fluid" alt="summerSale" />
+            <p class="text-center pt-4 ml-5"
+              style="color: #45413e;
+            font-size: 27px;
+            font-weight: 400;
+            line-height: 27px;"
+            >
+              Follow us on Facebook
+            </p>
+          
+        
+            <p class="text-center ml-5"
+              style="font-size: 20px;
+            font-weight: 400; color: #45413e;"
+            >
+              Sed ut perspiciatis unde omnis <br> iste natus error sit
+            </p>
+          
+          <button class="facebookBtn mt-3">
+              <i class="fab fa-facebook-f"></i>
+              <p class="align-middle">FOLLOW</p>
+          </button>
+    
+      </div>
+    </div>
     <!--Script Tags-->
     <script src="js/carousel.js"></script>
   </body>
