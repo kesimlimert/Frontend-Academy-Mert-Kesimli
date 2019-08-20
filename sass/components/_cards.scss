@@ -1,0 +1,9 @@
+@import '../utilities/mixins';
+
+.card {
+    @include card-size;
+}
+
+.card-deck {
+    margin: 62px 65px 0 70px;
+}

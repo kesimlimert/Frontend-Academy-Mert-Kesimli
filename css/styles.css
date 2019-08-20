@@ -217,16 +217,6 @@ aside.primary {
   padding-top: 25%;
   background-size: cover; }
 
-h1 {
-  width: 100px;
-  height: 100px;
-  background-color: rgba(146, 45, 141, 0.7);
-  margin: auto;
-  line-height: 100px;
-  color: #fff;
-  font-size: 2.4em;
-  border-radius: 50%; }
-
 .slide:nth-child(1) {
   background-image: url("../../images/1.png"); }
 
@@ -235,10 +225,6 @@ h1 {
 
 .slide:nth-child(3) {
   background-image: url("../../images/3.png"); }
-
-#summerSale img {
-  margin-top: 0px;
-  margin-left: 100px; }
 
 /* Using responsive mixin example 
 
@@ -252,16 +238,15 @@ aside.primary {
 }
 
 */
-.facebookBtn {
+.btn {
   width: 221px;
   height: 55px;
   border: 3px solid #3a5b96;
   background-color: white;
   border-radius: 40px;
   position: relative;
-  text-align: center;
-  margin-left: 200px; }
-  .facebookBtn p {
+  text-align: center; }
+  .btn p {
     float: left;
     width: 84px;
     height: 16px;
@@ -269,8 +254,7 @@ aside.primary {
     font-size: 21px;
     font-weight: 400;
     text-transform: uppercase;
-    margin-left: 31px;
-    margin-top: 7px; }
+    margin-left: 21px; }
 
 .fa-facebook-f {
   float: left;
@@ -278,4 +262,50 @@ aside.primary {
   width: 13px;
   height: 27px;
   margin-left: 34px;
-  margin-top: 16px; }
+  margin-top: 8px; }
+
+#popularItems {
+  background-color: #262a32;
+  width: 100%;
+  height: 1591px; }
+
+#popularItems h3 {
+  font-size: 36px;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  padding-top: 133px; }
+
+#popularItems h3:before,
+#popularItems h3:after {
+  content: "";
+  border-top: 2px solid white;
+  margin: 0 78px 0 87px;
+  flex: 1 0 20px;
+  opacity: 0.1; }
+
+#popularItems h3:after {
+  margin: 0 81px 0 85px; }
+
+/* Using responsive mixin example 
+
+aside.primary {
+  float: right;
+  width: 350px;
+  @include breakpoint(sm) {
+    float: none;
+    width: 100%;
+  }
+}
+
+*/
+.card {
+  width: 406px;
+  height: 548px; }
+
+.card-deck {
+  margin: 62px 65px 0 70px; }

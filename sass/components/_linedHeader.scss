@@ -1,0 +1,25 @@
+#popularItems {
+     h3 {
+    font-size: 36px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    padding-top: 133px;
+  }
+  h3:before,
+  h3:after {
+    content: "";
+    border-top: 2px solid white;
+    margin: 0 78px 0 87px;
+    flex: 1 0 20px;
+    opacity: 0.1;
+  }
+
+  h3:after {
+    margin: 0 81px 0 85px;
+  }
+}

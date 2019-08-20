@@ -1,0 +1,15 @@
+/* Using responsive mixin example 
+
+aside.primary {
+  float: right;
+  width: 350px;
+  @include breakpoint(sm) {
+    float: none;
+    width: 100%;
+  }
+}
+
+*/
+.card {
+  width: 406px;
+  height: 548px; }

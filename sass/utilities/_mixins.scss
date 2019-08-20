@@ -15,6 +15,11 @@
   float: left;
 }
 
+@mixin card-size {
+  width: 406px;
+  height: 548px;
+}
+
 // --------Media Query Mixins------ ////
 
 @mixin breakpoint($class) {

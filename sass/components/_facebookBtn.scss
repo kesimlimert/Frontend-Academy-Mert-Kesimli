@@ -1,6 +1,6 @@
 @import '../utilities/mixins';
 
-.facebookBtn {
+.btn {
     width: 221px;
     height: 55px;
     border: 3px solid #3a5b96;
@@ -8,7 +8,6 @@
     border-radius: 40px;
     position: relative;
     text-align: center;
-    margin-left: 200px;
     
      p{
         @include f-left;
@@ -18,8 +17,7 @@
     font-size: 21px;
     font-weight: 400;
     text-transform: uppercase;
-    margin-left: 31px;
-    margin-top: 7px;
+    margin-left: 21px;
     }
     
 }
@@ -30,5 +28,6 @@
     width: 13px;
     height: 27px;
     margin-left: 34px;
-    margin-top: 16px;
+    margin-top: 8px;
+   
 }
