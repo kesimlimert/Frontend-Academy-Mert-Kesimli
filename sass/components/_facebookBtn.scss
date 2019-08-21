@@ -1,11 +1,12 @@
 @import '../utilities/mixins';
+@import '../utilities/variables';
 
 .btn {
     width: 221px;
     height: 55px;
     border: 3px solid #3a5b96;
     background-color: white;
-    border-radius: 40px;
+    border-radius: $button-radius;
     position: relative;
     text-align: center;
     

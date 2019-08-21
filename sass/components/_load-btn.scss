@@ -1,0 +1,27 @@
+@import '../utilities/variables';
+
+.load-btn{
+    width: 392px;
+    height: 55px;
+    border: 3px solid #e8e2d6;
+    background-color: #1e1d22;
+    border-radius: $button-radius;
+    margin: auto;
+    margin-top: 75px;
+    .fa-redo-alt {
+        color: white;
+        float: left;
+        margin-top: 16px;
+        padding-left: 50px;
+    }
+    p {
+        color: #ffffff;
+        font-size: 21px;
+        font-weight: 400;
+        text-transform: uppercase;
+        float: left;
+        margin-left: 138px;
+        margin-top: 8px;
+    }
+}
+

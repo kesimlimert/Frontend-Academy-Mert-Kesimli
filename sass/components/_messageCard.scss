@@ -1,0 +1,32 @@
+@import '../utilities/mixins';
+
+.img-container {
+    display: inline-block;
+    position: relative;
+}
+.positioning{
+    width: 197px;
+    height: 91px;
+    position: absolute;
+    float: left;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 300px 163px 131px 46px;
+}
+
+.time {
+    position: absolute;
+    float: left;
+    img{
+        float: left;
+    }
+    p{
+        float: left;
+        padding-left: 30px;
+        text-align: center;
+        padding-top: 15px;
+        
+    }
+}
