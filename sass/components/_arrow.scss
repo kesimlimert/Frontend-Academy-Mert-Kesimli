@@ -1,0 +1,30 @@
+
+  #featuredProducts{
+    h1{
+        font-size: 54px;
+        font-weight: 700;
+        color: white;
+        padding-top: 64px;
+    }
+    p{
+        color: white;
+        font-size: 27px;
+        font-weight: 400;
+    }
+
+    .container {
+        margin: auto;
+        width: 888px;
+        height: 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .divider {
+        flex-grow: 1;
+        border-bottom: 1px solid white;
+        margin: 5px
+      }
+}
+  

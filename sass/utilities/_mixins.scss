@@ -20,6 +20,10 @@
   height: 548px;
 }
 
+@mixin product-size {
+  width: 406px;
+  height: 444px;
+}
 // --------Media Query Mixins------ ////
 
 @mixin breakpoint($class) {

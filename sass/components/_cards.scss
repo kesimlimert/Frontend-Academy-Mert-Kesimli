@@ -1,13 +1,26 @@
 @import '../utilities/mixins';
 
-.card {
-    @include card-size;
+#popularItems {
+    .card {
+        @include card-size;
+    }
+    
+    .card-deck {
+        margin: 0 65px 0 70px;
+    }
+    
+    #message {
+        background-image: url("../../images/Layer\ 149.png");
+    }
 }
 
-.card-deck {
-    margin: 0 65px 0 70px;
+#featuredProducts {
+    .card {
+        @include product-size;
+    }
+
+    .card-deck {
+        margin: 0 82px 0 82px;
+    }
 }
 
-#message {
-    background-image: url("../../images/Layer\ 149.png");
-}

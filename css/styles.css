@@ -229,15 +229,22 @@ aside.primary {
 }
 
 */
-.card {
+#popularItems .card {
   width: 406px;
   height: 548px; }
 
-.card-deck {
+#popularItems .card-deck {
   margin: 0 65px 0 70px; }
 
-#message {
+#popularItems #message {
   background-image: url("../../images/Layer 149.png"); }
+
+#featuredProducts .card {
+  width: 406px;
+  height: 444px; }
+
+#featuredProducts .card-deck {
+  margin: 0 82px 0 82px; }
 
 /* Using responsive mixin example 
 
@@ -298,3 +305,57 @@ aside.primary {
     float: left;
     margin-left: 138px;
     margin-top: 8px; }
+
+.jumbotron {
+  background-image: url("../../images/Layer_148.png");
+  height: 668px;
+  display: flex;
+  align-items: center; }
+  .jumbotron h1 {
+    font-size: 73px;
+    font-weight: bold;
+    color: white; }
+  .jumbotron p {
+    color: white;
+    font-size: 21px;
+    font-weight: 400; }
+
+/* Using responsive mixin example 
+
+aside.primary {
+  float: right;
+  width: 350px;
+  @include breakpoint(sm) {
+    float: none;
+    width: 100%;
+  }
+}
+
+*/
+#featuredProducts {
+  height: 832px;
+  background-color: #262a32; }
+
+#featuredProducts h1 {
+  font-size: 54px;
+  font-weight: 700;
+  color: white;
+  padding-top: 64px; }
+
+#featuredProducts p {
+  color: white;
+  font-size: 27px;
+  font-weight: 400; }
+
+#featuredProducts .container {
+  margin: auto;
+  width: 888px;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+#featuredProducts .divider {
+  flex-grow: 1;
+  border-bottom: 1px solid white;
+  margin: 5px; }
