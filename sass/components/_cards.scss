@@ -17,6 +17,7 @@
 #featuredProducts {
     .card {
         @include product-size;
+        float: left;
     }
 
     .card-deck {

@@ -140,7 +140,8 @@ aside.primary {
 
 #featuredProducts .card {
   width: 406px;
-  height: 444px; }
+  height: 444px;
+  float: left; }
 
 #featuredProducts .card-deck {
   margin: 0 82px 0 82px; }
