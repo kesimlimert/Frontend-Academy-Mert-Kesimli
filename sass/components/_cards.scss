@@ -18,10 +18,17 @@
     .card {
         @include product-size;
         float: left;
+        
+        img{
+            width: 406px;
+            height: 285px;
+        }
     }
 
     .card-deck {
         margin: 0 82px 0 82px;
     }
+
+   
 }
 
