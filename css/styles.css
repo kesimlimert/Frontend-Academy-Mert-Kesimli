@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Lato&display=swap);
 .navbar-nav {
   margin-left: 301px;
   font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase; }
+  font-weight: 400; }
   .navbar-nav > li {
     padding-left: 10px;
     padding-right: 10px; }
@@ -43,13 +43,17 @@ aside.primary {
 .dropdown-menu {
   width: 100%;
   background-color: #262a32;
-  height: 448px; }
-
-.row {
-  align-items: center;
-  margin-left: 225px; }
-  .row img {
-    margin-top: 57px; }
+  height: 577px; }
+  .dropdown-menu .row {
+    margin: 70px 88px 0 82px; }
+  .dropdown-menu a {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 46.5px; }
+  .dropdown-menu h4 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold; }
 
 /* Using responsive mixin example 
 
@@ -131,6 +135,23 @@ aside.primary {
 #popularItems .card {
   width: 406px;
   height: 548px; }
+  #popularItems .card-title {
+    color: #45413e;
+    font-size: 24px;
+    line-height: 27px; }
+  #popularItems .card p {
+    color: #011847;
+    font-size: 21px; }
+  #popularItems .card button {
+    width: 298px;
+    height: 55px;
+    border: 3px solid lightgray;
+    background-color: white;
+    border-radius: 40px; }
+    #popularItems .card button div {
+      width: 2px;
+      height: 50px;
+      background-color: lightgray; }
 
 #popularItems .card-deck {
   margin: 0 65px 0 70px; }
@@ -262,3 +283,59 @@ aside.primary {
   flex-grow: 1;
   border-bottom: 1px solid white;
   margin: 5px; }
+
+body {
+  font-family: "Lato", sans-serif; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style-type: none; }
+
+/* Using responsive mixin example 
+
+aside.primary {
+  float: right;
+  width: 350px;
+  @include breakpoint(sm) {
+    float: none;
+    width: 100%;
+  }
+}
+
+*/
+footer .row {
+  margin: 59px 88px 0 79px; }
+
+footer .container-fluid {
+  height: 500px; }
+
+footer h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #333333; }
+
+footer #unique {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 27px;
+  color: #45413e; }
+
+footer ul {
+  padding-top: 44px; }
+
+footer li {
+  font-family: "Lato", sans-serif;
+  color: #45413e;
+  opacity: 0.7;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 46.5px; }
+
+footer img {
+  color: #000000;
+  opacity: 0.3; }

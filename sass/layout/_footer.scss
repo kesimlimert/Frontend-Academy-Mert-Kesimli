@@ -1,0 +1,44 @@
+@import '../base/typography';
+@import '../utilities/mixins';
+
+footer {
+  .row {
+    margin: 59px 88px 0 79px;
+  }
+
+  .container-fluid {
+    height: 500px;
+  }
+
+  h4 {
+    font-family: $lato;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  #unique {
+    font-family: $lato;  
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 27px;
+    color: #45413e;
+  }
+
+  ul{
+      padding-top: 44px;
+  }
+
+  li{
+    font-family: $lato;  
+    @include opacity(#45413e,0.7);
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 46.5px;
+  }
+
+  img{
+    @include opacity(#000000,0.3);
+  }
+ 
+}

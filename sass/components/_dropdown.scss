@@ -1,21 +1,27 @@
-@import '../utilities/variables';
-@import '../utilities/mixins';
+@import "../utilities/variables";
+@import "../utilities/mixins";
 
-.dropdown{
-    position:initial;
+.dropdown {
+  position: initial;
 }
 
-.dropdown-menu{
-    width: 100%;
-    background-color: $osf-black;
-    height: 448px;
-}
+.dropdown-menu {
+  width: 100%;
+  background-color: $osf-black;
+  height: 577px;
 
-.row {
-    align-items: center;
-    margin-left: 225px;
-    img {
-        margin-top: 57px;
-    }
-}
+  .row {
+    margin: 70px 88px 0 82px;
+  }
 
+  a {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 46.5px;
+  }
+  h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}

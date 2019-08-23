@@ -1,34 +1,54 @@
-@import '../utilities/mixins';
+@import "../utilities/mixins";
+@import "../utilities/variables";
 
 #popularItems {
-    .card {
-        @include card-size;
+  .card {
+    @include card-size;
+    &-title {
+      color: #45413e;
+      font-size: 24px;
+      line-height: 27px;
     }
-    
-    .card-deck {
-        margin: 0 65px 0 70px;
+    p {
+      color: #011847;
+      font-size: 21px;
     }
-    
-    #message {
-        background-image: url("../../images/Layer\ 149.png");
+    button {
+      width: 298px;
+      height: 55px;
+      border: 3px solid lightgray;
+      background-color: white; 
+      border-radius: $button-radius;
+      div{
+        width: 2px;
+        height: 50px;
+        background-color: lightgray;
+      }
+      
     }
+  }
+
+  .card-deck {
+    margin: 0 65px 0 70px;
+  }
+
+  #message {
+    background-image: url("../../images/Layer\ 149.png");
+  }
 }
 
 #featuredProducts {
-    .card {
-        @include product-size;
-        float: left;
-        
-        img{
-            width: 406px;
-            height: 285px;
-        }
-    }
+  .card {
+    @include product-size;
+    float: left;
 
-    .card-deck {
-        margin: 0 82px 0 82px;
+    img {
+      width: 406px;
+      height: 285px;
     }
+  }
 
-   
+  .card-deck {
+    margin: 0 82px 0 82px;
+  }
 }
-
