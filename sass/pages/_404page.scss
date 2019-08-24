@@ -1,0 +1,35 @@
+#background {
+    background-color: #f1edea;
+    height: 1719px;
+
+   h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #45413e;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+h2:before,
+h2:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 50px 0 82px;
+    flex: 1 0 20px;
+    opacity: 0.3;
+}
+
+h2:after {
+    margin: 0 82px 0 55px;
+}
+.container-fluid{
+    height: 739px;
+    width: 1710px;
+    background-color: white;
+    margin: 0 82px 0 82px;
+
+}
+}

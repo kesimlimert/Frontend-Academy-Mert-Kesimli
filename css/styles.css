@@ -45,12 +45,6 @@ aside.primary {
   background-color: #262a32;
   height: 448px; }
 
-.row {
-  align-items: center;
-  margin-left: 225px; }
-  .row img {
-    margin-top: 57px; }
-
 /* Using responsive mixin example 
 
 aside.primary {
@@ -262,3 +256,30 @@ aside.primary {
   flex-grow: 1;
   border-bottom: 1px solid white;
   margin: 5px; }
+
+#background {
+  background-color: #f1edea;
+  height: 1719px; }
+  #background h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #45413e;
+    font-size: 72px;
+    font-weight: bold; }
+  #background h2:before,
+  #background h2:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 50px 0 82px;
+    flex: 1 0 20px;
+    opacity: 0.3; }
+  #background h2:after {
+    margin: 0 82px 0 55px; }
+  #background .container-fluid {
+    height: 739px;
+    width: 1710px;
+    background-color: white;
+    margin: 0 82px 0 82px; }
