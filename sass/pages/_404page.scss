@@ -1,8 +1,12 @@
+
+@import '../utilities/mixins';
+
 #background {
   background-color: #f1edea;
   height: 1100px;
 
   h2 {
+    @include linedHeader;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -13,18 +17,7 @@
     font-weight: bold;
   }
 
-  h2:before,
-  h2:after {
-    content: "";
-    border-top: 2px solid;
-    margin: 0 50px 0 82px;
-    flex: 1 0 20px;
-    opacity: 0.3;
-  }
 
-  h2:after {
-    margin: 0 82px 0 55px;
-  }
   .container-fluid {
     height: 739px;
     width: 1710px;

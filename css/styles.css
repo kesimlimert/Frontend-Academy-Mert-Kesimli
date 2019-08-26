@@ -340,6 +340,18 @@ footer img {
   color: #000000;
   opacity: 0.3; }
 
+/* Using responsive mixin example 
+
+aside.primary {
+  float: right;
+  width: 350px;
+  @include breakpoint(sm) {
+    float: none;
+    width: 100%;
+  }
+}
+
+*/
 #background {
   background-color: #f1edea;
   height: 1100px; }
@@ -351,16 +363,23 @@ footer img {
     text-align: center;
     color: #45413e;
     font-size: 72px;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #45413e;
+    font-size: 72px;
     font-weight: bold; }
-  #background h2:before,
-  #background h2:after {
-    content: "";
-    border-top: 2px solid;
-    margin: 0 50px 0 82px;
-    flex: 1 0 20px;
-    opacity: 0.3; }
-  #background h2:after {
-    margin: 0 82px 0 55px; }
+    #background h2:before, #background h2:after {
+      content: "";
+      border-top: 2px solid;
+      margin: 0 50px 0 82px;
+      flex: 1 0 20px;
+      opacity: 0.3; }
+    #background h2:after {
+      margin: 0 82px 0 55px; }
   #background .container-fluid {
     height: 739px;
     width: 1710px;
@@ -437,3 +456,72 @@ input:-ms-input-placeholder {
   height: 27px;
   color: #4f4e4c;
   right: 0px; }
+
+/* Using responsive mixin example 
+
+aside.primary {
+  float: right;
+  width: 350px;
+  @include breakpoint(sm) {
+    float: none;
+    width: 100%;
+  }
+}
+
+*/
+#productPage h2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #45413e;
+  font-size: 72px;
+  font-weight: bold;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #45413e;
+  font-size: 72px;
+  font-weight: bold; }
+  #productPage h2:before, #productPage h2:after {
+    content: "";
+    border-top: 2px solid;
+    margin: 0 50px 0 82px;
+    flex: 1 0 20px;
+    opacity: 0.3; }
+  #productPage h2:after {
+    margin: 0 82px 0 55px; }
+
+#productPage .container-fluid {
+  height: 2000px;
+  width: 1720px;
+  background-color: white; }
+  #productPage .container-fluid p {
+    color: #555555;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 36px; }
+  #productPage .container-fluid h4 {
+    color: #000000;
+    font-size: 36px;
+    font-weight: bold; }
+  #productPage .container-fluid a {
+    color: #84bc22;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: bold; }
+
+#color {
+  width: 229px;
+  height: 54px;
+  border: 3px solid #e8e2d6;
+  background-color: white;
+  border-radius: 40px; }
+  #color div {
+    width: 34px;
+    height: 34px;
+    background-color: #585d61;
+    border-radius: 100%; }
