@@ -1,0 +1,40 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+.has-search input {
+  width: 851px;
+  height: 55px;
+  border: 3px solid #e8e2d6;
+  border-radius: 300px;
+}
+
+.has-search img {
+    margin-top: 55px;
+}
+
+input::-webkit-input-placeholder {
+  @include placeholder;
+}
+
+input:-moz-placeholder {
+  /* Firefox 18- */
+  @include placeholder;
+}
+
+input::-moz-placeholder {
+  /* Firefox 19+ */
+  @include placeholder;
+}
+
+input:-ms-input-placeholder {
+  @include placeholder;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  display: block;
+  width: 27px;
+  height: 27px;
+  color: #4f4e4c;
+  right: 0px;
+}

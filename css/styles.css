@@ -45,7 +45,7 @@ aside.primary {
   background-color: #262a32;
   height: 577px; }
   .dropdown-menu .row {
-    margin: 70px 88px 0 82px; }
+    margin: 89px 83px 76px 96px; }
   .dropdown-menu a {
     color: #ffffff;
     font-size: 15px;
@@ -339,3 +339,101 @@ footer li {
 footer img {
   color: #000000;
   opacity: 0.3; }
+
+#background {
+  background-color: #f1edea;
+  height: 1100px; }
+  #background h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #45413e;
+    font-size: 72px;
+    font-weight: bold; }
+  #background h2:before,
+  #background h2:after {
+    content: "";
+    border-top: 2px solid;
+    margin: 0 50px 0 82px;
+    flex: 1 0 20px;
+    opacity: 0.3; }
+  #background h2:after {
+    margin: 0 82px 0 55px; }
+  #background .container-fluid {
+    height: 739px;
+    width: 1710px;
+    background-color: white;
+    margin: 0 82px 0 82px; }
+    #background .container-fluid p {
+      color: #555555;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 36px; }
+    #background .container-fluid h4 {
+      color: #000000;
+      font-size: 36px;
+      font-weight: bold; }
+    #background .container-fluid a {
+      color: #84bc22;
+      font-family: Lato;
+      font-size: 20px;
+      font-weight: bold; }
+  #background #image404 img {
+    margin-left: -76px; }
+
+/* Using responsive mixin example 
+
+aside.primary {
+  float: right;
+  width: 350px;
+  @include breakpoint(sm) {
+    float: none;
+    width: 100%;
+  }
+}
+
+*/
+.has-search input {
+  width: 851px;
+  height: 55px;
+  border: 3px solid #e8e2d6;
+  border-radius: 300px; }
+
+.has-search img {
+  margin-top: 55px; }
+
+input::-webkit-input-placeholder {
+  padding-left: 34px;
+  color: #45413e;
+  font-size: 21px;
+  text-transform: uppercase; }
+
+input:-moz-placeholder {
+  /* Firefox 18- */
+  padding-left: 34px;
+  color: #45413e;
+  font-size: 21px;
+  text-transform: uppercase; }
+
+input::-moz-placeholder {
+  /* Firefox 19+ */
+  padding-left: 34px;
+  color: #45413e;
+  font-size: 21px;
+  text-transform: uppercase; }
+
+input:-ms-input-placeholder {
+  padding-left: 34px;
+  color: #45413e;
+  font-size: 21px;
+  text-transform: uppercase; }
+
+.has-search .form-control-feedback {
+  position: absolute;
+  display: block;
+  width: 27px;
+  height: 27px;
+  color: #4f4e4c;
+  right: 0px; }
