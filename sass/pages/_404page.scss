@@ -1,50 +1,46 @@
-
 @import '../utilities/mixins';
 
 #background {
-  background-color: #f1edea;
-  height: 1100px;
+	background-color: #f1edea;
+	height: 1100px;
 
-  h2 {
-    @include linedHeader;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #45413e;
-    font-size: 72px;
-    font-weight: bold;
-  }
+	h2 {
+		@include linedHeader;
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		color: #45413e;
+		font-size: 72px;
+		font-weight: bold;
+	}
 
+	.container-fluid {
+		height: 739px;
+		width: 1710px;
+		background-color: white;
+		margin: 0 82px 0 82px;
+		p {
+			color: #555555;
+			font-size: 20px;
+			font-weight: bold;
+			line-height: 36px;
+		}
+		h4 {
+			color: #000000;
+			font-size: 36px;
+			font-weight: bold;
+		}
 
-  .container-fluid {
-    height: 739px;
-    width: 1710px;
-    background-color: white;
-    margin: 0 82px 0 82px;
-     p {
-        color: #555555;
-        font-size: 20px;
-        font-weight: bold;
-        line-height: 36px;
-      }
-      h4 {
-        color: #000000;
-        font-size: 36px;
-        font-weight: bold;
-      }
-
-      a {
-        color: #84bc22;
-        font-family: Lato;
-        font-size: 20px;
-        font-weight: bold;
-      }
-    
-  }
-    #image404 img{
-       margin-left: -76px;
-    }
-  
+		a {
+			color: #84bc22;
+			font-family: Lato;
+			font-size: 20px;
+			font-weight: bold;
+		}
+	}
+	#image404 img {
+		margin-left: -76px;
+	}
 }

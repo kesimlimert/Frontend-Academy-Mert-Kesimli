@@ -1,0 +1,9 @@
+.hoverImage {
+    position: absolute;
+    opacity: 0;
+    &:hover{
+        opacity: 1;
+         transition: 0.3s;
+    }
+
+}

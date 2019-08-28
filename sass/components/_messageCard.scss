@@ -1,6 +1,7 @@
 @import '../utilities/mixins';
+#message{
 
-.img-container {
+    .img-container {
     display: inline-block;
     position: relative;
 }
@@ -29,4 +30,6 @@
         padding-top: 15px;
         
     }
+}
+
 }

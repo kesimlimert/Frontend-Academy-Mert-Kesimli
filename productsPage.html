@@ -67,45 +67,45 @@
 									<div class="row">
 										<ul class="col">
 											<h4>PRODUCT CATEGORIES</h4>
-											<li class="pt-3"><a href="#">Accessories</a></li>
-											<li><a href="#">Alcohol</a></li>
-											<li><a href="#">Art</a></li>
-											<li><a href="#">Books</a></li>
-											<li><a href="#">Drink</a></li>
-											<li><a href="#">Electronics</a></li>
-											<li><a href="#">Flowers & Plants</a></li>
-											<li><a href="#">Food</a></li>
+											<li class="pt-3"><a href="404page.html">Accessories</a></li>
+											<li><a href="404page.html">Alcohol</a></li>
+											<li><a href="404page.html">Art</a></li>
+											<li><a href="404page.html">Books</a></li>
+											<li><a href="404page.html">Drink</a></li>
+											<li><a href="404page.html">Electronics</a></li>
+											<li><a href="404page.html">Flowers & Plants</a></li>
+											<li><a href="404page.html">Food</a></li>
 										</ul>
 										<ul class="col ">
-											<li class="pt-5"><a href="#">Gadgets</a></li>
-											<li><a href="#">Garden</a></li>
-											<li><a href="#">Grocery</a></li>
-											<li><a href="#">Home</a></li>
-											<li><a href="#">Jewelry</a></li>
-											<li><a href="#">Kids & Baby</a></li>
-											<li><a href="#">Men's Fashion</a></li>
-											<li><a href="#">Mobile</a></li>
+											<li class="pt-5"><a href="404page.html">Gadgets</a></li>
+											<li><a href="404page.html">Garden</a></li>
+											<li><a href="404page.html">Grocery</a></li>
+											<li><a href="404page.html">Home</a></li>
+											<li><a href="404page.html">Jewelry</a></li>
+											<li><a href="404page.html">Kids & Baby</a></li>
+											<li><a href="404page.html">Men's Fashion</a></li>
+											<li><a href="404page.html">Mobile</a></li>
 										</ul>
 										<ul class="col ">
-											<li class="pt-5"><a href="#">Motorcycles</a></li>
-											<li><a href="#">Movies</a></li>
-											<li><a href="#">Music</a></li>
-											<li><a href="#">Office</a></li>
-											<li><a href="#">Pets</a></li>
-											<li><a href="#">Romantic</a></li>
-											<li><a href="#">Sport</a></li>
-											<li><a href="#">Toys</a></li>
+											<li class="pt-5"><a href="404page.html">Motorcycles</a></li>
+											<li><a href="404page.html">Movies</a></li>
+											<li><a href="404page.html">Music</a></li>
+											<li><a href="404page.html">Office</a></li>
+											<li><a href="404page.html">Pets</a></li>
+											<li><a href="404page.html">Romantic</a></li>
+											<li><a href="404page.html">Sport</a></li>
+											<li><a href="404page.html">Toys</a></li>
 										</ul>
 										<ul class="col">
 											<h4>SALE</h4>
-											<li class="pt-3"><a href="#">Accessories</a></li>
-											<li><a href="#">Alcohol</a></li>
-											<li><a href="#">Art</a></li>
-											<li><a href="#">Books</a></li>
-											<li><a href="#">Drink</a></li>
-											<li><a href="#">Electronics</a></li>
-											<li><a href="#">Flowers & Plants</a></li>
-											<li><a href="#">Food</a></li>
+											<li class="pt-3"><a href="404page.html">Accessories</a></li>
+											<li><a href="404page.html">Alcohol</a></li>
+											<li><a href="404page.html">Art</a></li>
+											<li><a href="404page.html">Books</a></li>
+											<li><a href="404page.html">Drink</a></li>
+											<li><a href="404page.html">Electronics</a></li>
+											<li><a href="404page.html">Flowers & Plants</a></li>
+											<li><a href="404page.html">Food</a></li>
 										</ul>
 										<ul class="list-unstyled col">
 											<img src="images/Layer_162.png" alt="img" />
@@ -162,8 +162,8 @@
 		<div class="container-fluid w-100" id="productPage" style="background-color: #f1edea;">
 			<!--HEADER-->
 			<div class="d-flex  justify-content-center pt-5">
-				<div style=" font-weight: bold; color: #84bc22;font-size: 20px; padding-right: 15px;">
-					Home
+				<div>
+					<a class="home pr-3" href="index.html">Home</a>
 				</div>
 				<div style="font-size: 20px; color: #45413e; opacity: 0.3;">/</div>
 				<div
@@ -180,53 +180,46 @@
 			<!--Content-->
 			<div class="container-fluid mt-5">
 				<div class="container-fluid pt-4 w-100">
-					<div class="row" >
+					<div class="row">
 						<div class="col">
 							<div class="row">
 								<div class="col">
 									<img
+										id="biggerPic"
 										src="images/p11.jpg"
 										style="width: 867px;
                     height: 789px;"
 										alt=""
 									/>
 								</div>
-								<div class="col-lg-2">
+								<div class="col-lg-2" id="image-picker">
 									<div class="row">
-										<img
-											class="mt-3"
-											style="width: 110px;
-                      height: 105px; border: 1px solid black;"
-											src="images/p1.jpg"
-											alt="product"
-										/>
+										<button
+											onclick="makeActive(event, 'img1'),change1()"
+											class="mt-3 images active"
+											id="img1"
+										></button>
 									</div>
 									<div class="row">
-										<img
-											class="mt-3"
-											style="width: 110px;
-                      height: 105px; border: 1px solid black;"
-											src="images/p2.jpg"
-											alt="product"
-										/>
+										<button
+											onclick="makeActive(event, 'img2'),change2()"
+											class="mt-3 images"
+											id="img2"
+										></button>
 									</div>
 									<div class="row">
-										<img
-											class="mt-3"
-											style="width: 110px;
-                      height: 105px; border: 1px solid black;"
-											src="images/p6.jpg"
-											alt="product"
-										/>
+										<button
+											onclick="makeActive(event, 'img3'),change3()"
+											class="mt-3 images"
+											id="img3"
+										></button>
 									</div>
 									<div class="row">
-										<img
-											class="mt-3"
-											style="width: 110px;
-                      height: 105px; border: 1px solid black;"
-											src="images/p4.jpg"
-											alt="product"
-										/>
+										<button
+											onclick="makeActive(event, 'img4'),change4()"
+											class="mt-3 images"
+											id="img4"
+										></button>
 									</div>
 								</div>
 							</div>
@@ -298,11 +291,15 @@
 								dicta sunt explicabo.<br />
 								Nemo enim ipsam voluptatem quia voluptas
 							</p>
-							<a style="	color: #84bc22;
+							<a
+								style="	color: #84bc22;
 		          	font-family: Lato;
 			          font-size: 20px;
                 font-weight: bold;"
-                class="ml-1" href="">Read More</a>
+								class="ml-1"
+								href=""
+								>Read More</a
+							>
 							<div class="mt-5 ml-1">
 								<p style="opacity: 0.3; font-size: 20px;" class="float-left pb-5 pr-4">Share</p>
 								<img
@@ -336,7 +333,7 @@
 					<div class="tab text-center">
 						<button class="tablinks" onclick="openContent(event, 'Description')">Description</button>
 						<button class="tablinks" onclick="openContent(event, 'Additional Information')">
-	            Additional Information
+							Additional Information
 						</button>
 						<button class="tablinks" onclick="openContent(event, 'Reviews')">Reviews (3)</button>
 					</div>
@@ -403,155 +400,139 @@
 						</div>
 					</div>
 				</div>
-      </div>
-      <!--POPULAR ITEMS-->
-      <h4 id="popularTitle">POPULAR ITEMS</h4> 
-      <div class="card-deck mt-5" style="margin-right:65px; margin-left:65px;">
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="images/Layer_1.png"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <h5 class="card-title text-center">
-              Kristina Dam Oak Table With White Marble Top
-            </h5>
-            <p style="opacity: 0.3" class="text-center">$ 799.55</p>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="images/Layer_2.png"
-            alt="Card image cap"
-          />
-          <div class="card-body text-center">
-            <h5 class="card-title text-center">
-              Hay - About A Lounge <br />Chair AAL 93
-            </h5>
-            <p style="opacity: 0.3">$ 2195.00</p>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="images/Layer_154.png"
-            alt="Card image cap"
-          />
-          <div class="card-body text-center">
-            <h5 class="card-title">Activate Facial Mask and <br>Charcoal Soap </h5>
-            <p style="opacity: 0.3">$ 129.55</p>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="images/Layer_4.png"
-            alt="Card image cap"
-          />
-          <div class="card-body text-center">
-            <h5 class="card-title">Cocktail Table Walnut 
-               <br> | YES</h5>
-               <p style="opacity: 0.3">$ 299.99</p>
-          </div>
-        </div>
-      </div>
-      <!--ABOVE FOOTER PART-->
-		<div class="container-fluid w-100" style="height: 297px; margin-top: 83px; background-color:#45413e;">
-			<div class="d-flex justify-content-between pt-5" id="bottomContainer">
-				<div class="container clearfix pt-5">
-					<div class="float-left">
-						<img
-							src="images/Delivery_Packages_On_A_Trolley._Attribute_as_Freepik_from_Flaticon.com.png"
-							alt="delivery"
-							class="pt-3"
-						/>
+			</div>
+			<!--POPULAR ITEMS-->
+			<h4 id="popularTitle">POPULAR ITEMS</h4>
+			<div class="card-deck mt-5" style="margin-right:65px; margin-left:65px;">
+				<div class="card">
+					<img class="card-img-top" src="images/Layer_1.png" alt="Card image cap" />
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							Kristina Dam Oak Table With White Marble Top
+						</h5>
+						<p style="opacity: 0.3" class="text-center">$ 799.55</p>
 					</div>
-					<div class="float-left pl-5">
-						<h3
-							style="font-size: 27px;
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="images/Layer_2.png" alt="Card image cap" />
+					<div class="card-body text-center">
+						<h5 class="card-title text-center">Hay - About A Lounge <br />Chair AAL 93</h5>
+						<p style="opacity: 0.3">$ 2195.00</p>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="images/Layer_154.png" alt="Card image cap" />
+					<div class="card-body text-center">
+						<h5 class="card-title">Activate Facial Mask and <br />Charcoal Soap</h5>
+						<p style="opacity: 0.3">$ 129.55</p>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="images/Layer_4.png" alt="Card image cap" />
+					<div class="card-body text-center">
+						<h5 class="card-title">
+							Cocktail Table Walnut <br />
+							| YES
+						</h5>
+						<p style="opacity: 0.3">$ 299.99</p>
+					</div>
+				</div>
+			</div>
+			<!--ABOVE FOOTER PART-->
+			<div class="container-fluid w-100" style="height: 297px; margin-top: 83px; background-color:#45413e;">
+				<div class="d-flex justify-content-between pt-5" id="bottomContainer">
+					<div class="container clearfix pt-5">
+						<div class="float-left">
+							<img
+								src="images/Delivery_Packages_On_A_Trolley._Attribute_as_Freepik_from_Flaticon.com.png"
+								alt="delivery"
+								class="pt-3"
+							/>
+						</div>
+						<div class="float-left pl-5">
+							<h3
+								style="font-size: 27px;
             font-weight: 700;
             line-height: 36px;
             color:white;"
-						>
-							FOCUS
-						</h3>
-						<p
-							style="font-size: 21px;
+							>
+								FOCUS
+							</h3>
+							<p
+								style="font-size: 21px;
             font-weight: 400;
             line-height: 27px;
             color: #868380;"
-						>
-							Our unwavering focus on superior<br />
-							service delivery and building next<br />generation competencies
-						</p>
+							>
+								Our unwavering focus on superior<br />
+								service delivery and building next<br />generation competencies
+							</p>
+						</div>
+						<div class="clear"></div>
 					</div>
-					<div class="clear"></div>
-				</div>
-				<div class="container clearfix pt-5" id="bottomContainer">
-					<div class="float-left">
-						<img
-							src="images/Triangular_Arrows_Sign_For_Recycle._Attribute_as_Freepik_from_Flaticon.com.png"
-							alt="Triangular_Arrows_Sign_For_Recycle"
-							class="pt-3"
-						/>
-					</div>
-					<div class="float-left pl-5">
-						<h3
-							style="font-size: 27px;
+					<div class="container clearfix pt-5" id="bottomContainer">
+						<div class="float-left">
+							<img
+								src="images/Triangular_Arrows_Sign_For_Recycle._Attribute_as_Freepik_from_Flaticon.com.png"
+								alt="Triangular_Arrows_Sign_For_Recycle"
+								class="pt-3"
+							/>
+						</div>
+						<div class="float-left pl-5">
+							<h3
+								style="font-size: 27px;
               font-weight: 700;
               line-height: 36px;
               color:white;"
-						>
-							METHOD
-						</h3>
-						<p
-							style="font-size: 21px;
+							>
+								METHOD
+							</h3>
+							<p
+								style="font-size: 21px;
               font-weight: 400;
               line-height: 27px;
               color: #868380;"
-						>
-							A standardized methodology designed<br />to deliver measurable business results<br />and
-							predictable costs
-						</p>
+							>
+								A standardized methodology designed<br />to deliver measurable business results<br />and
+								predictable costs
+							</p>
+						</div>
+						<div class="clear"></div>
 					</div>
-					<div class="clear"></div>
-				</div>
-				<div class="container clearfix pt-5" id="bottomContainer">
-					<div class="float-left">
-						<img
-							src="images/Clipboard_Verification_Symbol._Attribute_as_Freepik_from_Flaticon.com.png"
-							alt="clipboard"
-							class="pt-3"
-						/>
-					</div>
-					<div class="float-left pl-5">
-						<h3
-							style="font-size: 27px;
+					<div class="container clearfix pt-5" id="bottomContainer">
+						<div class="float-left">
+							<img
+								src="images/Clipboard_Verification_Symbol._Attribute_as_Freepik_from_Flaticon.com.png"
+								alt="clipboard"
+								class="pt-3"
+							/>
+						</div>
+						<div class="float-left pl-5">
+							<h3
+								style="font-size: 27px;
                 font-weight: 700;
                 line-height: 36px;
                 color:white;"
-						>
-							KNOWLEDGE
-						</h3>
-						<p
-							style="font-size: 21px;
+							>
+								KNOWLEDGE
+							</h3>
+							<p
+								style="font-size: 21px;
                 font-weight: 400;
                 line-height: 27px;
                 color: #868380;"
-						>
-							A highly skilled, proactive workforce that<br />
-							reliably improves each client’s ROI while<br />
-							mitigating their business risk
-						</p>
+							>
+								A highly skilled, proactive workforce that<br />
+								reliably improves each client’s ROI while<br />
+								mitigating their business risk
+							</p>
+						</div>
+						<div class="clear"></div>
 					</div>
-					<div class="clear"></div>
 				</div>
 			</div>
 		</div>
-    </div>
-		
+
 		<!--FOOTER-->
 		<footer class="page-footer">
 			<div class="container-fluid w-100">
@@ -571,53 +552,63 @@
 					<div class="col">
 						<h4>CATEGORIEST</h4>
 						<ul>
-							<li>Alcohol</li>
-							<li>Art</li>
-							<li>Books</li>
-							<li>Drink</li>
-							<li>Electronics</li>
+							<a href="404page.html"><li>Alcohol</li></a>
+
+							<a href="404page.html"><li>Art</li></a>
+
+							<a href="404page.html"><li>Books</li></a>
+
+							<a href="404page.html"><li>Drink</li></a>
+
+							<a href="404page.html"><li>Electronics</li></a>
 						</ul>
 					</div>
 					<div class="col">
 						<ul>
 							<br />
-							<li>Home</li>
-							<li>Jewelry</li>
-							<li>Kids & Baby</li>
-							<li>Men's Fashion</li>
-							<li>Mobile</li>
-							<li>Motorcycles</li>
-							<li>Movies</li>
-							<li>Music</li>
+							<a href="404page.html"><li>Home</li></a>
+							<a href="404page.html"><li>Jewelry</li></a>
+							<a href="404page.html"><li>Kids & Baby</li></a>
+							<a href="404page.html"><li>Men's Fashion</li></a>
+							<a href="404page.html"><li>Mobile</li></a>
+							<a href="404page.html"><li>Motorcycles</li></a>
+							<a href="404page.html"><li>Movies</li></a>
+							<a href="404page.html"><li>Music</li></a>
 						</ul>
 					</div>
 					<div class="col">
 						<ul>
 							<br />
-							<li>Sport</li>
-							<li>Toys</li>
-							<li>Travel</li>
-							<li>Women's Fashion</li>
+							<a href="404page.html"><li>Sport</li></a>
+							<a href="404page.html"><li>Toys</li></a>
+							<a href="404page.html"><li>Travel</li></a>
+							<a href="404page.html"><li>Women's Fashion</li></a>
 						</ul>
 					</div>
 					<div class="col">
 						<h4>ABOUT</h4>
 						<ul>
-							<li>About Us</li>
-							<li>Delivery</li>
-							<li>Testimonials</li>
-							<li>Contact</li>
+							<a href="404page.html"> <li>About Us</li></a>
+							<a href="404page.html"><li>Delivery</li></a>
+							<a href="404page.html"><li>Testimonials</li></a>
+							<a href="404page.html"> <li>Contact</li></a>
 						</ul>
 					</div>
 					<div class="col">
-						<img src="images/f2.png" class="float-left pl-3 pr-3" alt="f" />
-						<img src="images/g+.png" class="float-left pl-3 pr-3" alt="g+" />
-						<img src="images/t.png" class="float-left pl-3 pr-3" alt="t" />
-						<img src="images/p.png" class="float-left pl-3 pr-3" alt="p" />
+						<a href="https://www.facebook.com/"
+							><img src="images/f2.png" class="float-left pl-3 pr-3" alt="f"
+						/></a>
+						<a
+							href="https://aboutme.google.com"
+							><img src="images/g+.png" class="float-left pl-3 pr-3" alt="g+"
+						/></a>
+						<a href="https://twitter.com"><img src="images/t.png" class="float-left pl-3 pr-3" alt="t"/></a>
+						<a href="https://tr.pinterest.com/"><img src="images/p.png" class="float-left pl-3 pr-3" alt="p"/></a>
 					</div>
 				</div>
 			</div>
 		</footer>
 		<script src="js/tab.js"></script>
+		<script src="js/changeImage.js"></script>
 	</body>
 </html>

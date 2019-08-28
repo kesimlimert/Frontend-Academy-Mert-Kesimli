@@ -57,6 +57,25 @@
     margin: 0 82px 0 55px;
    }
 }
+@mixin whiteLinedHeader {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 72px;
+  font-weight: bold;
+   &:before, &:after {
+    content: "";
+    border-top: 2px solid white;
+    margin: 0 50px 0 82px;
+    flex: 1 0 20px;
+   }
+   &:after{
+    margin: 0 82px 0 55px;
+   }
+}
 
 // --------Media Query Mixins------ ////
 

@@ -4,6 +4,7 @@
 #popularItems {
   .card {
     @include card-size;
+     border-radius: 10px;
     &-title {
       color: #45413e;
       font-size: 24px;
@@ -41,6 +42,7 @@
   .card {
     @include product-size;
     float: left;
+    border-radius: 10px;
 
     img {
       width: 406px;
@@ -50,5 +52,22 @@
 
   .card-deck {
     margin: 0 82px 0 82px;
+  }
+}
+
+#categoryPage {
+  .card{
+     @include card-size;
+     border-radius: 10px;
+     &-title {
+      color: #45413e;
+      font-size: 24px;
+      line-height: 27px;
+    }
+    p {
+      color: #011847;
+      font-size: 21px;
+      opacity: 0.3;
+    }
   }
 }
