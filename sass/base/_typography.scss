@@ -7,6 +7,7 @@ $lato : 'Lato', sans-serif;
 
 body {
     font-family: $lato;
+    overflow-x: hidden;
 }
 
 * {

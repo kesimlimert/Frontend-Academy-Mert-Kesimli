@@ -1,10 +1,12 @@
 @import '../utilities/variables';
 
 .navbar{
+    border-bottom: 2px solid;
+    border-color: $osf-grey;
     &-nav{
         margin-left: 301px;
         font-size: 14px;
-        font-weight: 400;
+        font-weight: bold;
         &>li{
             padding-left:10px;
             padding-right:10px;
@@ -16,8 +18,7 @@
 }
     
 header{
-    border-bottom: 2px solid;
-    border-color: $osf-grey;
+    
 }
 
 

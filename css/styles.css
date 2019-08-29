@@ -1,22 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Lato&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Lato&display=swap);
-.navbar-nav {
-  margin-left: 301px;
-  font-size: 14px;
-  font-weight: 400; }
-  .navbar-nav > li {
-    padding-left: 10px;
-    padding-right: 10px; }
-
-.navbar-brand {
-  margin-left: 82px; }
-
-header {
+.navbar {
   border-bottom: 2px solid;
   border-color: #f3f0eb; }
+  .navbar-nav {
+    margin-left: 301px;
+    font-size: 14px;
+    font-weight: bold; }
+    .navbar-nav > li {
+      padding-left: 10px;
+      padding-right: 10px; }
+  .navbar-brand {
+    margin-left: 82px; }
 
 body {
-  font-family: "Lato", sans-serif; }
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden; }
 
 * {
   margin: 0;
@@ -300,7 +299,8 @@ aside.primary {
   margin: 5px; }
 
 body {
-  font-family: "Lato", sans-serif; }
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden; }
 
 * {
   margin: 0;
